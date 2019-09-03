@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-folder=/storage/usbdisk/kali-fs
+folder=/sdcard/kali-fs
 if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
